@@ -1,0 +1,96 @@
+html, body, .App, #root {
+    height:100%;
+    width:100%;
+    background-color: black;
+    color:white;
+}
+
+.game{
+    display:block;
+
+    height:95%;
+    width:100%;
+
+    margin: 0;
+
+    background-image: url('C:\CAPITALIST_PROJECT\Isis.JeuCapitaliste_BackEndServeur_JosseBIK-master-master\public\Icones\boccadasse-summer-morning.png');
+    background-repeat: no-repeat;
+    background-size:87% 95%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header {
+    position:fixed;
+    background-color:#404b55;
+    width: 100%;
+    height: 6%;
+    z-index:2;
+}
+
+.colonne-gauche {
+    top:19%;
+    height: 67%;
+    min-width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 10%;
+    position:fixed;
+}
+
+.parent_corps {
+    position:fixed;
+    top:19%;
+    height: 67%;
+    width: 100%;
+    display:flex;
+    overflow-y: auto;
+    z-index:1;
+}
+
+.corps {
+    position: absolute;
+    left:20%;
+    top:2%;
+    height: 93%;
+    width: 60%;
+    overflow:visible;
+    font-size:2.25vmin;
+    text-align: justify;
+    display:flex;
+    flex-direction: column;
+}
+
+.main {
+
+}
+
+.product {
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    width: 100%;
+}
+
+.IdJoueur{
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #404b55;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.logo{
+    max-width: max-content;
+    height: 15px;
+}
